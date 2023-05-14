@@ -28,3 +28,4 @@ El programa ofrece las siguientes funcionalidades:
 Si deseas contribuir a este proyecto, siéntete libre de hacerlo. Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) con tus mejoras o correcciones.
 
 
+# ProyectoED
