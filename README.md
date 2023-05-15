@@ -26,6 +26,10 @@ El programa ofrece las siguientes funcionalidades:
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, siéntete libre de hacerlo. Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) con tus mejoras o correcciones.
-
-
+#Caso de usuario
+![](img/CASO.png)
+#Digrama de flujo
+![](img/Diagra.png)
+#JIRA
+![](img/JIRA.png)
 # ProyectoED
