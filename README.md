@@ -27,6 +27,62 @@ El programa ofrece las siguientes funcionalidades:
 
 Si deseas contribuir a este proyecto, siéntete libre de hacerlo. Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) con tus mejoras o correcciones.
 
+##PSEUDOCODIGO
+
+Algoritmo Heladeria
+    Definir usr, contra como cadena
+    Definir usrcorrecto, contracorrecta como cadena
+    Definir preciohelado, descuento como real
+    Definir opc, cantidad como entero
+    Definir total como real
+
+    Mostrar "----Bienvenidos a Mochhia----"
+    Mostrar "-----------------------------"
+
+    Definir autenticado como booleano
+    autenticado = Falso
+    Mientras no autenticado hacer
+        Mostrar "Digite su nombre de usuario: "
+        Leer usr
+        Mostrar "Digite su contraseña: "
+        Leer contra
+        
+        Si usr = usrcorrecto y contra = contracorrecta entonces
+            autenticado = Verdadero
+        Sino
+            Mostrar "Usuario y/o contraseña incorrectas"
+        Fin Si
+    Fin Mientras
+
+    Mostrar ""
+    Mostrar "Menú de helados"
+    Mostrar "-----------------"
+    Mostrar "1. Helado de fresa"
+    Mostrar "2. Helado de chocolate"
+    Mostrar "3. Helado de nutella"
+    Mostrar "-------------------"
+    Mostrar "Selecciona tu helado a pedir"
+    Leer opc
+    Mostrar "Ingresa la cantidad a comprar"
+    Leer cantidad
+    total = preciohelado * cantidad
+
+    Mostrar "-----------------------------------"
+    Mostrar "---Gracias por comprar en Mochaa---"
+    Mostrar "Helado seleccionado: " + opc
+    Mostrar "Cantidad de helados: " + cantidad
+    Mostrar "Precio unitario: " + preciohelado
+    Si cantidad > 4 entonces
+        total = total - total * descuento
+        Mostrar "Descuento por compra mayor igual a 4: " + descuento * 100 + "%"
+    Sino
+        Mostrar "No aplica descuento"
+    Fin Si
+
+    Mostrar "Total a pagar: " + total
+Fin Algoritmo
+
+
 ## Caso de usuario
 
 ![Caso de usuario](img/CASO.png)
@@ -38,4 +94,6 @@ Si deseas contribuir a este proyecto, siéntete libre de hacerlo. Puedes abrir p
 ## JIRA
 
 ![JIRA SOFTWARE](img/JIRA.png)
+
+
 
